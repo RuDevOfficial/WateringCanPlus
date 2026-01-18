@@ -1,0 +1,22 @@
+{
+    "Group": "RuDev",
+    "Name": "WateringCanPlus",
+    "Version": "1.0.0",
+    "Description": "A plugin that adds new watering cans to make farming a little bit easier!",
+    "Authors": [
+        {
+            "Name": "RuDev"
+        }
+    ],
+    "Website": "https://ru-dev-official.itch.io/",
+    "ServerVersion": "*",
+    "Dependencies": {
+        
+    },
+    "OptionalDependencies": {
+        
+    },
+    "DisabledByDefault": false,
+    "Main": "com.rudev.wateringcans.Main",
+    "IncludesAssetPack": true
+}
