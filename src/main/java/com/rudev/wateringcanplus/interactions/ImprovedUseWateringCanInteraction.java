@@ -1,4 +1,4 @@
-package com.rudev.wateringcans.interactions;
+package com.rudev.wateringcanplus.interactions;
 
 import com.hypixel.hytale.builtin.adventure.farming.interactions.UseWateringCanInteraction;
 import com.hypixel.hytale.builtin.adventure.farming.states.FarmingBlock;
@@ -14,7 +14,6 @@ import com.hypixel.hytale.math.vector.Vector3i;
 import com.hypixel.hytale.protocol.InteractionState;
 import com.hypixel.hytale.protocol.InteractionType;
 import com.hypixel.hytale.protocol.WaitForDataFrom;
-import com.hypixel.hytale.server.core.asset.type.blocktype.config.BlockType;
 import com.hypixel.hytale.server.core.entity.InteractionContext;
 import com.hypixel.hytale.server.core.inventory.ItemStack;
 import com.hypixel.hytale.server.core.modules.block.BlockModule;

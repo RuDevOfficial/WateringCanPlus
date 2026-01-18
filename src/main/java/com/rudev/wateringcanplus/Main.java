@@ -1,10 +1,10 @@
-package com.rudev.wateringcans;
+package com.rudev.wateringcanplus;
 
 import com.hypixel.hytale.logger.HytaleLogger;
 import com.hypixel.hytale.server.core.modules.interaction.interaction.config.Interaction;
 import com.hypixel.hytale.server.core.plugin.JavaPlugin;
 import com.hypixel.hytale.server.core.plugin.JavaPluginInit;
-import com.rudev.wateringcans.interactions.ImprovedUseWateringCanInteraction;
+import com.rudev.wateringcanplus.interactions.ImprovedUseWateringCanInteraction;
 
 import javax.annotation.Nonnull;
 

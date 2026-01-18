@@ -17,6 +17,6 @@
         
     },
     "DisabledByDefault": false,
-    "Main": "com.rudev.wateringcans.Main",
+    "Main": "com.rudev.wateringcanplus.Main",
     "IncludesAssetPack": true
 }
