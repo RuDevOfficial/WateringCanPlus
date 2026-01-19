@@ -4,7 +4,7 @@ import com.hypixel.hytale.logger.HytaleLogger;
 import com.hypixel.hytale.server.core.modules.interaction.interaction.config.Interaction;
 import com.hypixel.hytale.server.core.plugin.JavaPlugin;
 import com.hypixel.hytale.server.core.plugin.JavaPluginInit;
-import com.rudev.wateringcanplus.interactions.ImprovedUseWateringCanInteraction;
+import com.rudev.wateringcanplus.interactions.AreaUseWateringCanInteraction;
 
 import javax.annotation.Nonnull;
 
@@ -27,5 +27,5 @@ public class Main extends JavaPlugin {
     protected void setup() {
         LOGGER.atInfo().log("Setting up plugin " + this.getName());
 
-        this.getCodecRegistry(Interaction.CODEC).register("ImprovedUseWateringCan", ImprovedUseWateringCanInteraction.class, ImprovedUseWateringCanInteraction.CODEC);    }
+        this.getCodecRegistry(Interaction.CODEC).register("AreaUseWateringCan", AreaUseWateringCanInteraction.class, AreaUseWateringCanInteraction.CODEC);    }
 }

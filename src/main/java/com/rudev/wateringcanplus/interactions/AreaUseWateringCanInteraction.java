@@ -33,7 +33,7 @@ import java.util.ArrayList;
 import java.util.List;
 import javax.annotation.Nonnull;
 
-public class ImprovedUseWateringCanInteraction extends UseWateringCanInteraction {
+public class AreaUseWateringCanInteraction extends UseWateringCanInteraction {
 
     protected int expansionAmount;
     protected int subtractionAmount;
@@ -119,8 +119,8 @@ public class ImprovedUseWateringCanInteraction extends UseWateringCanInteraction
         }
     }
 
-    public static final BuilderCodec<ImprovedUseWateringCanInteraction> CODEC = BuilderCodec.builder(
-                    ImprovedUseWateringCanInteraction.class, ImprovedUseWateringCanInteraction::new, SimpleBlockInteraction.CODEC
+    public static final BuilderCodec<AreaUseWateringCanInteraction> CODEC = BuilderCodec.builder(
+                    AreaUseWateringCanInteraction.class, AreaUseWateringCanInteraction::new, SimpleBlockInteraction.CODEC
             )
             .documentation("Waters the target farmable block in an area.")
             .addField(new KeyedCodec<>("Duration", Codec.LONG), (interaction, duration) -> interaction.duration = duration, interaction -> interaction.duration)

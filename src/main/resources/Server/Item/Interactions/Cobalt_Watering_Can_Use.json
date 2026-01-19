@@ -1,5 +1,5 @@
 {
-  "Type": "ImprovedUseWateringCan",
+  "Type": "AreaUseWateringCan",
   "Duration": 86400,
   "Expansion": 1,
   "Subtraction": 1,
